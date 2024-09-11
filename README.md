@@ -2,6 +2,7 @@
 
 
 Patrón Command en C# Usando Visual Studio
+
 El Patrón Command es un patrón de diseño de comportamiento que convierte una solicitud en un objeto independiente, lo que permite parametrizar a los clientes con diferentes solicitudes, colas o registros de operaciones. En C#, este patrón es especialmente útil cuando queremos desacoplar el objeto que emite una solicitud del que la recibe y ejecuta.
 
 Conceptos Clave
