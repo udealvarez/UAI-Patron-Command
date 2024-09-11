@@ -1,0 +1,9 @@
+C:\Users\Gabo Bernardini\Desktop\command\BE\bin\Debug\BE.dll
+C:\Users\Gabo Bernardini\Desktop\command\BE\bin\Debug\BE.pdb
+C:\Users\Gabo Bernardini\Desktop\command\BE\bin\Debug\Abstraccion.dll
+C:\Users\Gabo Bernardini\Desktop\command\BE\bin\Debug\Abstraccion.pdb
+C:\Users\Gabo Bernardini\Desktop\command\BE\obj\Debug\BE.csproj.AssemblyReference.cache
+C:\Users\Gabo Bernardini\Desktop\command\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\Gabo Bernardini\Desktop\command\BE\obj\Debug\BE.csproj.CopyComplete
+C:\Users\Gabo Bernardini\Desktop\command\BE\obj\Debug\BE.dll
+C:\Users\Gabo Bernardini\Desktop\command\BE\obj\Debug\BE.pdb

@@ -1,0 +1,160 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Abstraccion/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Abstraccion.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Abstraccion.dll": {}
+        }
+      },
+      "BE/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Abstraccion": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BE.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BE.dll": {}
+        }
+      },
+      "BLL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Abstraccion": "1.0.0",
+          "BE": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BLL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Abstraccion/1.0.0": {
+      "type": "project",
+      "path": "../Abstraccion/Abstraccion.csproj",
+      "msbuildProject": "../Abstraccion/Abstraccion.csproj"
+    },
+    "BE/1.0.0": {
+      "type": "project",
+      "path": "../BE/BE.csproj",
+      "msbuildProject": "../BE/BE.csproj"
+    },
+    "BLL/1.0.0": {
+      "type": "project",
+      "path": "../BLL/BLL.csproj",
+      "msbuildProject": "../BLL/BLL.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Abstraccion >= 1.0.0",
+      "BE >= 1.0.0",
+      "BLL >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Eduardo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Eduardo\\Desktop\\PatronCommand (1)\\command\\Command\\Command.csproj",
+      "projectName": "Command",
+      "projectPath": "C:\\Users\\Eduardo\\Desktop\\PatronCommand (1)\\command\\Command\\Command.csproj",
+      "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Eduardo\\Desktop\\PatronCommand (1)\\command\\Command\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Eduardo\\Desktop\\PatronCommand (1)\\command\\Abstraccion\\Abstraccion.csproj": {
+              "projectPath": "C:\\Users\\Eduardo\\Desktop\\PatronCommand (1)\\command\\Abstraccion\\Abstraccion.csproj"
+            },
+            "C:\\Users\\Eduardo\\Desktop\\PatronCommand (1)\\command\\BE\\BE.csproj": {
+              "projectPath": "C:\\Users\\Eduardo\\Desktop\\PatronCommand (1)\\command\\BE\\BE.csproj"
+            },
+            "C:\\Users\\Eduardo\\Desktop\\PatronCommand (1)\\command\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\Eduardo\\Desktop\\PatronCommand (1)\\command\\BLL\\BLL.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.33, 6.0.33]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.33, 6.0.33]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.33, 6.0.33]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.33, 6.0.33]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

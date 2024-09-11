@@ -1,0 +1,11 @@
+C:\Users\Gabo Bernardini\Desktop\command\BLL\bin\Debug\BLL.dll
+C:\Users\Gabo Bernardini\Desktop\command\BLL\bin\Debug\BLL.pdb
+C:\Users\Gabo Bernardini\Desktop\command\BLL\bin\Debug\Abstraccion.dll
+C:\Users\Gabo Bernardini\Desktop\command\BLL\bin\Debug\BE.dll
+C:\Users\Gabo Bernardini\Desktop\command\BLL\bin\Debug\Abstraccion.pdb
+C:\Users\Gabo Bernardini\Desktop\command\BLL\bin\Debug\BE.pdb
+C:\Users\Gabo Bernardini\Desktop\command\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\Gabo Bernardini\Desktop\command\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Gabo Bernardini\Desktop\command\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Gabo Bernardini\Desktop\command\BLL\obj\Debug\BLL.dll
+C:\Users\Gabo Bernardini\Desktop\command\BLL\obj\Debug\BLL.pdb
